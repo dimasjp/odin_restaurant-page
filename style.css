@@ -11,7 +11,7 @@ body {
     justify-content: center;
 }
 
-.hero-container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./christian-chen-j35QCogHqr8-unsplash.jpg")
 }
 
-.hero-text {
+.head-text {
     font-family:'Playfair Display';
     font-weight: 700;
     font-size: 32px;
@@ -31,6 +31,7 @@ body {
     color: white;
 }
 
-h1 {
+.head-text h1,
+.head-text p {
     margin: 0;
 }
