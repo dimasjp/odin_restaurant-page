@@ -26,10 +26,12 @@ export default function menu() {
     menuOne.appendChild(menuOneText);
 
     const menuOneName = document.createElement('h3');
+    menuOneName.classList.add('menu-name');
     menuOneName.textContent = "Black Coffee";
     menuOneText.appendChild(menuOneName);
 
     const menuOneSub = document.createElement('p');
+    menuOneSub.classList.add('menu-sub');
     menuOneSub.textContent = "\"Black as midnight on a moonless night\"";
     menuOneText.appendChild(menuOneSub);
 
@@ -47,10 +49,12 @@ export default function menu() {
     menuTwo.appendChild(menuTwoText);
 
     const menuTwoName = document.createElement('h3');
+    menuOneName.classList.add('menu-name');
     menuTwoName.textContent = "Cherry Pie";
     menuTwoText.appendChild(menuTwoName);
 
     const menuTwoSub = document.createElement('p');
-    menuTwoSub.textContent = "\"It'll kill ya\"";
+    menuTwoSub.classList.add('menu-sub');
+    menuTwoSub.textContent = "\"It could kill ya\"";
     menuTwoText.appendChild(menuTwoSub);
 }

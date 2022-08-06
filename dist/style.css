@@ -17,7 +17,7 @@ body {
     align-items: center;
     height: 90vh;
     width: 95vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./christian-chen-j35QCogHqr8-unsplash.jpg")
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./christian-chen-j35QCogHqr8-unsplash.jpg")
 }
 
 .head-text {
@@ -50,7 +50,7 @@ body {
 .menu-item {
     display: flex;
     gap: 20px;
-    width: 20vw;
+    width: 25vw;
 }
 
 .menu-img {
@@ -61,17 +61,34 @@ body {
 }
 
 .menu-text {
-    font-family: 'Playfair Display';
     color: white;
     margin: 25px 0 25px 0;
 }
 
 .menu-text h3 {
+    font-family: 'Playfair Display';
     margin: 0;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .menu-text p {
+    font-family: 'Manrope';
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.contact-head {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+}
+
+.contact-text {
+    font-family: 'Manrope';
+    font-size: 16px;
 }
